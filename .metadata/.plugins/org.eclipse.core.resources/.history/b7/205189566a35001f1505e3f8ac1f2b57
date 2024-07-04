@@ -1,0 +1,14 @@
+package com.data;
+
+class CloneDemo{
+	
+	int i=2;
+	String name="pramod";
+}
+
+public class Clone 
+{
+	CloneDemo cloneDemo=new CloneDemo();
+	
+
+}

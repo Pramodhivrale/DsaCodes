@@ -1,0 +1,24 @@
+package com.data;
+
+import java.io.Serializable;
+
+class Ser implements Serializable
+{
+	int i=1;
+	String name="pramod";
+	
+}
+
+public class Serilazation 
+{
+	
+	void meth1() {
+		
+		Ser s=new Ser();
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.data;
+
+/*
+ *  write a java program to find the smallest element which is the right side for each element ?
+
+     string arr[]={"11","2","5","4","10"};
+ */
+
+public class ArrayProgram 
+{
+	void meth1() {
+		
+		int arr[]= {11,2,5,3,10};
+		
+		for(int i=arr.length-1;i<=0;i--) {
+			
+			int current=arr[i];
+		}
+		
+	}
+
+}

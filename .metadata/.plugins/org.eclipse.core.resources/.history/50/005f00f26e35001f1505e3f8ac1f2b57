@@ -1,0 +1,16 @@
+package com.data;
+
+class Ser
+{
+	int i=1;
+	String name="pramod";
+	
+}
+
+public class Serilazation 
+{
+	public static void main(String[] args) {
+		
+	}
+
+}

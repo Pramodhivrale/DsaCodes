@@ -1,0 +1,32 @@
+package com.data;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+
+class Ser implements Serializable
+{
+	int i=1;
+	String name="pramod";
+	
+}
+
+public class Serilazation 
+{
+	
+	void meth1() throws Exception {
+		
+		Ser ser=new Ser();
+		System.out.println(ser.i);
+		
+		ObjectInputStream ois=new ObjectInputStream(new FileInputStream(""));
+		
+		//ObjectOutputStream obj=new ObjectOutputStream("");
+	}
+	
+	public static void main(String[] args) throws Exception {
+		new Serilazation().meth1();
+	}
+
+}

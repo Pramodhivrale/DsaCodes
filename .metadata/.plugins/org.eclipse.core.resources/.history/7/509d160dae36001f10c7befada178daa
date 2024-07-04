@@ -1,0 +1,13 @@
+package com.data;
+
+public class SmallestRightElement2 
+{
+	void meeth1() {
+		  String[] arr = {"11", "2", "5", "4", "10"};
+		  
+		  for(int i=0;i<=arr.length-1;i++) {
+			  int current=Integer.parseInt(arr[i]);
+		  }
+	}
+
+}

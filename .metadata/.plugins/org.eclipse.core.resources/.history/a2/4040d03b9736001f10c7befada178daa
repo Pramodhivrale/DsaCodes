@@ -1,0 +1,15 @@
+package com.data;
+
+public class TryCatchSingleMethod 
+{
+	public void throwException() {
+		try {
+			
+			
+			
+		} catch (Exception e) {
+			
+		}
+	}
+
+}

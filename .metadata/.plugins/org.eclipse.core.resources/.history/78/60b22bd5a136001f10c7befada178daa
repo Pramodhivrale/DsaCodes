@@ -1,0 +1,12 @@
+package com.data;
+
+public class ToggleString 
+{
+	public void toggleString() {
+		
+	}
+	public static void main(String[] args) {
+		String inout="hello Java Programming";
+	}
+
+}

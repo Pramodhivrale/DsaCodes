@@ -1,0 +1,25 @@
+package in.codes;
+
+import java.util.Scanner;
+
+public class MathPaw 
+{
+	
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int n=sc.nextInt();
+		getSquere(a,n);
+		
+	}
+
+	private static void getSquere(int a, int n) {
+		
+		if(n % 2 ==0) {
+			int power=(int) ((int) (a * Math.pow(a, n/2)) *(a * Math.pow(a, n/2)));
+		}
+			
+	}
+
+}

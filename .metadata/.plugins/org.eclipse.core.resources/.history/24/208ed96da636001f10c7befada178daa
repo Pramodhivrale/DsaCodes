@@ -1,0 +1,33 @@
+package com.data;
+
+public class SmallestRightElement {
+
+    public static void findSmallestRightElement(String[] arr) {
+        int n = arr.length;
+        int[] result = new int[n];
+        int min = Integer.MAX_VALUE;
+
+        // Traverse the array from right to left
+        for (int i = n - 1; i >= 0; i--) {
+            int current = Integer.parseInt(arr[i]);
+            result[i] = min;
+            if (current < min) {
+                min = current;
+            }
+        }
+
+        // Print the results
+        for (int i = 0; i < n; i++) {
+            if (result[i] == Integer.MAX_VALUE) {
+                System.out.println("Smallest element to the right of " + arr[i] + " is not available.");
+            } else {
+                System.out.println("Smallest element to the right of " + arr[i] + " is " + result[i]);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        String[] arr = {"11", "2", "5", "4", "10"};
+        findSmallestRightElement(arr);
+    }
+}

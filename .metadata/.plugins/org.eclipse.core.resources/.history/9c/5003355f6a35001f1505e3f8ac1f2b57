@@ -1,0 +1,18 @@
+package com.data;
+
+class CloneDemo{
+	
+	int i=2;
+	String name="pramod";
+}
+
+public class Clone 
+{
+	void meth1() {
+		CloneDemo cloneDemo=new CloneDemo();
+		System.out.println(cloneDemo.i+" "cloneDemo.name);
+	}
+	
+	
+
+}

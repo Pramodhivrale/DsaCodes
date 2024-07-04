@@ -1,0 +1,16 @@
+package com.data;
+
+import java.util.Arrays;
+
+public class FrequencyOfDigit 
+{
+	void meth1() {
+		int number=70660675;
+		
+		
+	}
+	public static void main(String[] args) {
+		new FrequencyOfDigit().meth1();
+	}
+
+}

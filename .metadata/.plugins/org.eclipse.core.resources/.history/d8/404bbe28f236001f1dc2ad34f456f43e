@@ -1,0 +1,14 @@
+package com.dsa;
+
+public class SumOfNumber 
+{
+	public static void main(String[] args) {
+		int number=1234;
+		
+		String valueOf = String.valueOf(number);
+		int sum=0;
+		
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+package com.pattern;
+
+public class SingletonPattern 
+{
+	private static SingletonPattern singletonPattern;
+	
+	private SingletonPattern() {
+		
+	}
+	
+	public static SingletonPattern getObj() {
+		
+		if(singletonPattern == null) {
+	      singletonPattern=new SingletonPattern();
+		}
+		return singletonPattern;
+	}
+
+}
+
+class Data {
+	void meth1() {
+		SingletonPattern obj = SingletonPattern.getObj();
+		System.out.println(obj.hashCode());
+	}
+	public static void main(String[] args) {
+		
+	}
+}
+
+
+
+
+
+
+

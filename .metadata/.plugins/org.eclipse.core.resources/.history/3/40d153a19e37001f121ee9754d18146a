@@ -1,0 +1,21 @@
+package com.dsa;
+
+public class Arm {
+	public static void main(String[] args) {
+		int num = 153;
+		int cubeaddition=0;
+		
+		while(num != 0) 
+		{
+			int rem=num % 10;
+			int cube=rem*rem*rem;
+			num=num/10;
+		    cubeaddition=cubeaddition+cube;
+		    
+			
+		}
+		System.out.println(cubeaddition);
+
+	}
+
+}

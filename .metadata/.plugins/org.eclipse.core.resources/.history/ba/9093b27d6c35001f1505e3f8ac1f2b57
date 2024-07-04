@@ -1,0 +1,13 @@
+package com.data;
+
+class Data{
+	int i=1;
+	String name="pramod";
+}
+
+
+public class ObjectClone 
+{
+	
+
+}

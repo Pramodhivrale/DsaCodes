@@ -1,0 +1,30 @@
+package com.data;
+
+class UserException extends Exception {
+	
+	public UserException(String s) {
+		System.out.println(s);
+	}
+	
+}
+
+public class TryCatchSingleMethod 
+{
+	
+	public void throwException() {
+		
+		try {
+			
+			if(age < 18) {
+				throw new UserException("Your age is less for voating card ");
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	public static void main(String[] args) {
+		new TryCatchSingleMethod().throwException();
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.data;
+
+public class FrequencyOfDigit 
+{
+	void meth1() {
+
+		int number=123423;
+		String valueOf = String.valueOf(number);
+		System.out.println(valueOf.charAt(0));
+	}
+	public static void main(String[] args) {
+		new FrequencyOfDigit().meth1();
+	}
+
+}

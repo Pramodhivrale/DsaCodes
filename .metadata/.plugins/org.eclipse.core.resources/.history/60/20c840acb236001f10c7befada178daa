@@ -1,0 +1,26 @@
+package com.data;
+
+public class FrequencyOfDigit 
+{
+	void meth1() {
+		int number=70660675;
+		
+		int count=0;
+		String valueOf = String.valueOf(number);
+		int arr[]=new int[valueOf.length()];
+		for(int i=0;i<=valueOf.length()-1;i++) {
+		int num=valueOf.charAt(i);
+		for(int j=0;j<=valueOf.length()-1;j++){
+			if(num == valueOf.charAt(j)) {
+				count++;
+				
+			}
+			arr[j]=num;
+		}
+		}
+	}
+	public static void main(String[] args) {
+		new FrequencyOfDigit().meth1();
+	}
+
+}

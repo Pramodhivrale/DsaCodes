@@ -1,0 +1,33 @@
+package com.data;
+
+class CloneDemo implements Cloneable{
+	
+	int i=2;
+	String name="pramod";
+	
+	 Clone show() throws CloneNotSupportedException 
+	 {
+		Clone cloneobj =(Clone) super.clone();
+		return cloneobj;
+	}
+}
+
+public class Cloneobject 
+{
+	void meth1() {
+		CloneDemo cloneDemo=new CloneDemo();
+		System.out.println(cloneDemo.i+" "+cloneDemo.name);
+		
+		
+	}
+		
+	
+	
+	public static void main(String[] args) {
+		
+		new Cloneobject().meth1();
+	}
+	
+	
+
+}

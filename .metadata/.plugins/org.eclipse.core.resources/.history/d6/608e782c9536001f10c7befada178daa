@@ -1,0 +1,13 @@
+package com.data;
+
+public class ThrowCatchSingleMethod 
+{
+	public void throwException() 
+	{
+		
+	}
+	public static void main(String[] args) {
+		new ThrowCatchSingleMethod().throwException();
+	}
+
+}

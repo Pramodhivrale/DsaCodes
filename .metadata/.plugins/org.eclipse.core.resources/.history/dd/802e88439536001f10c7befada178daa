@@ -1,0 +1,19 @@
+package com.data;
+
+public class ThrowCatchSingleMethod 
+{
+	public void throwException() 
+	{
+		try {
+			String name="data";
+			System.out.println(name.indexOf("a"));
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+	public static void main(String[] args) {
+		new ThrowCatchSingleMethod().throwException();
+	}
+
+}

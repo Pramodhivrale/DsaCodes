@@ -1,0 +1,21 @@
+package com.data;
+
+public class SingleCatchBlock 
+{
+	public void meth1() {
+		
+		try {
+			int c= 10% 0;
+			
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+			
+			
+		}
+	}
+	public static void main(String[] args) {
+		new SingleCatchBlock().meth1();
+	}
+
+}

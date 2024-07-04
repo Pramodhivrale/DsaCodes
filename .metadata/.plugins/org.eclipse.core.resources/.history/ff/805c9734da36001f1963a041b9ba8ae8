@@ -1,0 +1,12 @@
+package com.data;
+
+public class FrequencyOfDigit 
+{
+	void meth1() {
+
+	}
+	public static void main(String[] args) {
+		new FrequencyOfDigit().meth1();
+	}
+
+}
