@@ -1,9 +1,0 @@
-package com.dsa;
-
-public class Power 
-{
-	public static void main(String[] args) {
-		
-	}
-
-}

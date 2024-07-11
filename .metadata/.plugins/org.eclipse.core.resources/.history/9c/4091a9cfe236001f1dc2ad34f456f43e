@@ -1,9 +1,0 @@
-package com.data;
-
-public class UniqueNumber 
-{
-	public static void main(String[] args) {
-		
-	}
-
-}

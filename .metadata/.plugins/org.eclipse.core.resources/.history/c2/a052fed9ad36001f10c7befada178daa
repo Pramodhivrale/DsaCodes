@@ -1,9 +1,0 @@
-package com.data;
-
-public class SmallestRightElement2 
-{
-	void meeth1() {
-		  String[] arr = {"11", "2", "5", "4", "10"};
-	}
-
-}
