@@ -1,6 +1,8 @@
 package com.singletonPattern;
 
-public class SingletonDesignPattern 
+import java.io.Serializable;
+
+public class SingletonDesignPattern implements Serializable
 {
     static SingletonDesignPattern s=null;
 	
@@ -15,6 +17,12 @@ public class SingletonDesignPattern
 		return s;
 		}
 	}
+	
+	Object readResolve(){
+		return s;
+	}
+	
+	
 	
 
 }
