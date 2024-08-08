@@ -7,9 +7,9 @@ public class MethodReferncing
 
 		//InterfaceA x=new MethodRefercing2()::display; //Non Static method refercing
 			
-        InterfaceA x=MethodRefercing2::msg;// Static method refercing
+        //InterfaceA x=MethodRefercing2::msg;// Static method refercing
         
-        //InterfaceA x=MethodRefercing2::new;
+        InterfaceA x=MethodRefercing2::new;
   
         
         

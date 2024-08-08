@@ -31,6 +31,9 @@ public class MapDemo3
 		asList.stream().filter(emp -> emp.salery > 50000.0)
 		               .forEach(i -> System.out.println(i.name+" "+i.age));
 		
+		asList.stream().filter(emp-> emp.salery > 50000.0)
+		               .map(name -> name.name +" "+name.age).forEach(i->System.out.println(i));
+		
 	
 		
 	}

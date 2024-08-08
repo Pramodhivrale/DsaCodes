@@ -33,21 +33,18 @@ public class MinMaxSaleryUsingJava8 {
 		UserObj user3 = new UserObj("Mohan", 3, 40000.50);
 		UserObj user4 = new UserObj("Deva", 4, 30000.50);
 		UserObj user5 = new UserObj("Prashant", 5, 80000.50);
-		
-		List<UserObj> asList = Arrays.asList(user1,user2,user3,user4,user5);
-		
-		Optional<UserObj> collect = asList.stream().collect(Collectors.maxBy(Comparator.comparing(e -> e.salery)));
-		UserObj userObj = collect.get();
-		System.out.println(userObj);
-		
-		Optional<UserObj> collect2 = asList.stream().collect(Collectors.minBy(Comparator.comparing(e -> e.salery)));
-		System.out.println(collect2);
-		
-		
+
+		List<UserObj> asList = Arrays.asList(user1, user2, user3, user4, user5);
+
+		Optional<UserObj> collect = asList.stream().collect(Collectors.minBy(Comparator.comparing(e -> e.salery)));
+		System.out.println("Min salaery :" + collect.get().salery);
+
+		Optional<UserObj> collect2 = asList.stream().collect(Collectors.maxBy(Comparator.comparing(e -> e.salery)));
+		System.out.println("Max salery :" + collect2.get().salery);
+
+		Double collect3 = asList.stream().collect(Collectors.averagingDouble(e -> e.salery));
+		System.out.println("Avg salery :"+collect3);
+
 	}
 
-	
-	 
-	
-	
 }

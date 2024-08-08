@@ -1,7 +1,6 @@
 package com.java8;
 
 import java.util.ArrayList;
-import java.util.function.Supplier;
 
 public class MethodRefercing2 
 {

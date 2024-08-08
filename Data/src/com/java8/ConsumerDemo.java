@@ -15,7 +15,7 @@ public class ConsumerDemo {
 		data.accept("Shivani");
 		data.accept("Mahesh");
 		data.accept("Akash");
-        System.out.println();
+		
 		List<Integer> asList = Arrays.asList(10, 20, 30, 40, 50, 60);
 		
 		//asList.forEach(p-> System.out.print(p+" "));

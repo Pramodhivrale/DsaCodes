@@ -269,6 +269,11 @@ Q. Second heights salary ?
 =>		List<Employee> collect = empData.stream().sorted(Comparator.comparing(Employee::getSalary).reversed()).collect(Collectors.toList());
 		Employee employee = collect.get(1);
 		System.out.println(employee);
+		
+		//Another way
+		 * 
+		 * 	Optional<EmployeeData> first = empData.stream().sorted(Comparator.comparing(EmployeeData::getSalary).reversed()).skip(1).findFirst();
+		    System.out.println(first.get().name);
 				
 */
 		

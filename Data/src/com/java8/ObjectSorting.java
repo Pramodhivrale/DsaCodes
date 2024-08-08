@@ -18,6 +18,7 @@ public class ObjectSorting
 		
 		Collections.sort(al, null);
 		
+		
 		Iterator<Object> iterator = al.iterator();
 		
 		while (iterator.hasNext()) {

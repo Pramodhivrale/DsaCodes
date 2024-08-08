@@ -12,6 +12,9 @@ public class MapDemo
 		//asList.stream().map(n -> n.toUpperCase()).forEach(i -> System.out.println(i+" "));
 		
 		//asList.stream().mapToInt(n-> n.length()).forEach(i->System.out.println(i));
+		
+		asList.stream().filter(name->name.startsWith("P"))
+		.map(n -> n +" "+ n.length()).forEach(s->System.out.println(s));
 	}
 
 }

@@ -10,7 +10,7 @@ public class MapDemo2
 		List<String> asList = Arrays.asList("Akash","Pramod","Ak","Shravn");
 		
         asList.stream().filter(name -> name.startsWith("A"))
-                       .map(n -> n.length()).forEach(i-> System.out.println(i));
+                       .map(n ->n+ " " + n.length()).forEach(i-> System.out.println(i));
 		
 	}
 

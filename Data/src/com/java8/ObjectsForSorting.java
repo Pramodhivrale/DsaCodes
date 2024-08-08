@@ -27,6 +27,8 @@ public class ObjectsForSorting implements Comparable<ObjectsForSorting>
 		
 		//return this.userId-o.userId;//Sorting data based on userId;
 		return this.userName.compareTo(o.userName);//Comparing based on userName
+		//return this.UserDept.compareTo(o.UserDept);
+		
 		
 	}
 	

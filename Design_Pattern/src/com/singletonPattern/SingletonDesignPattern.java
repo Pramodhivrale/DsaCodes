@@ -6,11 +6,13 @@ public class SingletonDesignPattern implements Serializable
 {
     static SingletonDesignPattern s=null;
 	
-	private SingletonDesignPattern() {
-		
+	private SingletonDesignPattern() throws Exception {
+		if(s != null) {
+			throw new Exception();
+		}
 	}
 	
-	static SingletonDesignPattern getInstance() {
+	static SingletonDesignPattern getInstance() throws Exception {
 		if(s==null) {
 			return s=new SingletonDesignPattern();
 		}else {
@@ -18,9 +20,9 @@ public class SingletonDesignPattern implements Serializable
 		}
 	}
 	
-	Object readResolve(){
-		return s;
-	}
+//	Object readResolve(){
+//		return s;
+//	}
 	
 	
 	

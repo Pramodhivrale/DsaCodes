@@ -31,7 +31,6 @@ public class PredicateJoinDemo
 		
 	    Predicate<Persons> data=	person -> person.location.equals("Hyd");
 	    Predicate<Persons> data2=   person -> person.name.startsWith("A");
-	    //Predicate<Persons> data3=   person -> person.dept.startsWith("Java");
 	    
 	    
 	    
