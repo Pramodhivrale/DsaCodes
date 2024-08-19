@@ -28,12 +28,12 @@ public class Seri
 		d1.gender = "Male";
 
 		
-		ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("C:\\FileInputStrem\\output.ser"));
+		ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("C:\\FileInputStrem\\output.txt"));
 		oos.writeObject(d1);
 		System.out.println("Object written file and seralization completed !");
 		oos.close();
 		
-		ObjectInputStream ois=new ObjectInputStream(new FileInputStream("C:\\FileInputStrem\\output.ser"));
+		ObjectInputStream ois=new ObjectInputStream(new FileInputStream("C:\\FileInputStrem\\output.txt"));
         SerializableClass object =(SerializableClass) ois.readObject();
         System.out.println("Reading completed !"+object);
         ois.close();
