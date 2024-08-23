@@ -18,7 +18,6 @@ public class HarshadNumber
 
 		}
 		int reminderr=temp % sum;
-		System.out.println(reminderr);
 		if(reminderr == 0) {
 			System.out.println("This is harshad number..");
 		}else {
