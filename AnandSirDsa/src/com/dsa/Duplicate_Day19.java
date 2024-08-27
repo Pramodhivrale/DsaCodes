@@ -14,7 +14,7 @@ public class Duplicate_Day19
 			int key=arr[i];
 			int count=0;
 			for(int j=i+1;j<size;j++) {
-				if(arr[j]==key) {
+				if(arr[j]==key) { 
 					count++;
 				}
 			}

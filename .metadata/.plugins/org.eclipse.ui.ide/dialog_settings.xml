@@ -16,6 +16,13 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\01. Level2 cache example\Level2Cache"/>
+			<item value="D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\03. Many-to-Many\JPAManyToMany"/>
+			<item value="D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\05. OneToMany\JPAOneToMany"/>
+			<item value="D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\07. JPANamedQueryApp\NamedQueryApplication"/>
+			<item value="D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\09. JPQLApplication\JPQLApplication"/>
+			<item value="D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\10. JPA app1\JpaHibernateAppln1"/>
+			<item value="D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\12. Application1"/>
 			<item value="D:\DSA Anand Sir\Dsa Codes\HackerRank"/>
 			<item value="D:\DSA Anand Sir\Dsa Codes\CoreJava"/>
 			<item value="D:\DSA Anand Sir\Dsa Codes\AshikIt"/>

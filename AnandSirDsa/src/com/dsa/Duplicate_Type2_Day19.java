@@ -1,14 +1,11 @@
 package com.dsa;
 
-import java.util.ArrayList;
-
 public class Duplicate_Type2_Day19 {
 	public static void main(String[] args) {
 
-		int arr[] = {1000,1000,1000,1000};
+		int arr[] = {1000,1000,1000,1000,200,200};
 		int size = arr.length;
 
-		ArrayList<Integer> al = new ArrayList<Integer>();
 		for (int i = 0; i < size; i++) {
 			int key = arr[i];
 			int count = 0;
