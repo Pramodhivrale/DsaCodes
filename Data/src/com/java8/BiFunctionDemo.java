@@ -8,7 +8,7 @@ public class BiFunctionDemo {
 		BiFunction<Integer, Integer, Integer> add = (a, b) -> a + b;
 		Integer sum = add.apply(10, 52);
 		System.out.println(sum);
-
+		
 	}
 
 }

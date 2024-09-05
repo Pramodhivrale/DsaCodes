@@ -12,6 +12,10 @@ public class SplIterator
 		
 		Spliterator<String> spliterator = asList.stream().spliterator();
 		spliterator.forEachRemaining(e ->System.out.println(e));
+		
+		Spliterator<String> spliterator2 = asList.stream().spliterator();
+		int characteristics = spliterator2.characteristics();
+		System.out.println(characteristics+" ");
 	}
 
 }

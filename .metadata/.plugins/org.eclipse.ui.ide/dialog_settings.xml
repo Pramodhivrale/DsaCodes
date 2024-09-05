@@ -16,6 +16,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\Spring Freamwork\Spring 8PM-20231121T030406Z-001\Spring 8PM\ClassRoomExample\28_july_flipkart"/>
+			<item value="E:\Spring Freamwork\Spring 8PM-20231121T030406Z-001\Spring 8PM\ClassRoomExample\01_Aug_JPA_Setup_flipkart"/>
+			<item value="E:\Spring Freamwork\Spring 8PM-20231121T030406Z-001\Spring 8PM\ClassRoomExample\24_july_Spring-Jdbc-Demo"/>
 			<item value="D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\01. Level2 cache example\Level2Cache"/>
 			<item value="D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\03. Many-to-Many\JPAManyToMany"/>
 			<item value="D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\05. OneToMany\JPAOneToMany"/>
