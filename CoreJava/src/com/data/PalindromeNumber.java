@@ -8,9 +8,11 @@ public class PalindromeNumber
 	{
 		for(int i=start;i<=end;i++) {
 			
-			if(isPalindrome(i)) {
-				System.out.println(i);
-			}
+			if (isPalindrome(i)) {
+                System.out.println(i + " is a palindrome.");
+            } else {
+                System.out.println(i + " is not a palindrome.");
+            }
 		}
 			
 	}
@@ -23,7 +25,8 @@ public class PalindromeNumber
     	 while (number != 0) {
 	            int digit = number % 10;
 	            reversedNumber = reversedNumber * 10 + digit;
-	            number /= 10;
+	            System.out.print(reversedNumber+" ");
+	            number=number/10;
 	        }
     	 
 		return originalnumber==reversedNumber;
