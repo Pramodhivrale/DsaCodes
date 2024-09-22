@@ -17,6 +17,8 @@ class Clone implements Cloneable {
 	}
 	
 
+	
+
 }
 
 public class Clonig 

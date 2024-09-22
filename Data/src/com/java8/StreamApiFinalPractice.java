@@ -1,9 +1,12 @@
 package com.java8;
 
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.DoubleSummaryStatistics;
 import java.util.List;
+import java.util.Optional;
+import java.util.function.ToDoubleFunction;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 class Employee {
 	int id;
@@ -86,6 +89,11 @@ class Employee {
 				+ depertmanet + ", yearOfjoining=" + yearOfjoining + ", salary=" + salary + "]";
 	}
 
+	public Object getDepartment() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
 
 public class StreamApiFinalPractice {
@@ -109,9 +117,9 @@ public class StreamApiFinalPractice {
 
 		List<Employee> empData = Arrays.asList(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16);
 
-		Stream<Employee> filter = empData.stream().filter(i -> i.salary == 25000.0);
-		List<Employee> collect = filter.collect(Collectors.toList());
-		System.out.println(collect);
+//		Stream<Employee> filter = empData.stream().filter(i -> i.salary == 25000.0);
+//		List<Employee> collect = filter.collect(Collectors.toList());
+//		System.out.println(collect);
 
 		/*
 		 * Q .Find male and female emp and count them => First way :-
@@ -219,6 +227,14 @@ public class StreamApiFinalPractice {
 		 * reversed()).skip(1).findFirst(); System.out.println(first.get().name);
 		 * 
 		 */
+		
+          List<Employee> collect = empData.stream().sorted(Comparator.comparing(Employee::getSalary).reversed())
+          .collect(Collectors.toList());
+          Employee employee = collect.get(0);
+          System.out.println(employee);
+		
+		
+
 
 	}
 
