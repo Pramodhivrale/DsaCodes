@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.ToDoubleFunction;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 class Employee {
 	int id;
@@ -117,6 +118,7 @@ public class StreamApiFinalPractice {
 
 		List<Employee> empData = Arrays.asList(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16);
 
+				
 //		Stream<Employee> filter = empData.stream().filter(i -> i.salary == 25000.0);
 //		List<Employee> collect = filter.collect(Collectors.toList());
 //		System.out.println(collect);
@@ -231,9 +233,13 @@ public class StreamApiFinalPractice {
           List<Employee> collect = empData.stream().sorted(Comparator.comparing(Employee::getSalary).reversed())
           .collect(Collectors.toList());
           Employee employee = collect.get(0);
-          System.out.println(employee);
+         // System.out.println(employee);
 		
-		
+       Stream<Employee> filter = empData.stream().filter(e->e.depertmanet=="Sales" && e.salary>15000.0);
+       //filter.forEach(data->System.out.println(data));
+       
+       Optional<Employee> collect2 = empData.stream().collect(Collectors.maxBy(Comparator.comparing(e->e.getSalary())));
+       System.out.println(collect2.get());
 
 
 	}

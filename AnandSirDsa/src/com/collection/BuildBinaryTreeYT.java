@@ -3,6 +3,8 @@ package com.collection;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import com.collection.BuildBinaryTreeYT.Node;
+
 public class BuildBinaryTreeYT {
 	static class Node {
 		int data;
@@ -33,6 +35,17 @@ public class BuildBinaryTreeYT {
 			newNode.right = buildtree(nodes);
 			return newNode;
 		}
+	}
+
+	// SEARCH PARTICULAR ELEMENT
+	public static boolean search(Node root, int key) {
+		if (root == null) {
+			return false;
+		}
+		if (root.data == key) {
+			return true;
+		}
+		return search(root.left, key) || search(root.right, key);
 	}
 
 	// PREORDER TRAVERSAL
@@ -67,8 +80,54 @@ public class BuildBinaryTreeYT {
 		System.out.println(root.data);
 	}
 
+	public static Node mirror(Node root) {
+		if (root == null) {
+			return null;
+		}
+		Node leftMirrior = mirror(root.left);
+		Node rightMirrior = mirror(root.right);
+
+		root.left = rightMirrior;
+		root.right = leftMirrior;
+		return root;
+	}
+
+	// INSERT ELEMENT
+	// IN GENRAL BINARY THREE WE INSERT ELEMENT AT FIRST AVAILABLE POSITION [THAT IS
+	// NULL]
+	public static void insert(Node root, int element) {
+		if (root == null) {
+			root = new Node(element);
+			return;
+		}
+		Queue<Node> queue = new LinkedList<Node>();
+		queue.add(root);
+		while (!queue.isEmpty()) {
+			Node currentNode = queue.remove();
+			// If we find an empty spot in the left subtree, insert there
+			if (currentNode.left == null) {
+				currentNode.left = new Node(element);
+				break;
+			} else {
+				queue.add(currentNode.left);
+			}
+			if (currentNode.right == null) {
+				currentNode.right = new Node(element);
+				break;
+			} else {
+				queue.add(currentNode.right);
+			}
+		}
+
+	}
+    //DELETE ELEMENT
+	
+
+	
+
+	// LEVELORDER TRAVERSAL
 	public static void levelorder(Node root) {
-		if(root==null) {
+		if (root == null) {
 			return;
 		}
 		Queue<Node> q = new LinkedList<>();
@@ -85,10 +144,10 @@ public class BuildBinaryTreeYT {
 				}
 			} else {
 				System.out.print(currentNode.data + " ");
-				if(currentNode.left!=null) {
+				if (currentNode.left != null) {
 					q.add(currentNode.left);
 				}
-				if(currentNode.right!=null) {
+				if (currentNode.right != null) {
 					q.add(currentNode.right);
 				}
 			}
@@ -103,7 +162,20 @@ public class BuildBinaryTreeYT {
 		// preorder(root);
 		// inorder(root);
 		// postorder(root);
+		// System.out.println("Before mirrio tree");
+		// levelorder(root);
+		// Node mirror = mirror(root);
+		// System.out.println("Mirror tree");
+		// levelorder(root);
+		// boolean search = search(root, 7);
+		// System.out.println(search);
+		// -----------------------------------
+		System.out.println("TREE BEFORE INSERTION");
 		levelorder(root);
+		insert(root, 11);
+		System.out.println("TREE AFTER INSERTION");
+		levelorder(root);
+
 	}
 
 }
