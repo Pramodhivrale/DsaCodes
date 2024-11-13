@@ -20,6 +20,7 @@ public class QueueUsingTwoStacks
 				s1.push(s2.pop());
 			}
 		}
+		// Remove 
 		public static int remove() {
 			if(isEmpty()) {
 				System.out.println("empty queue");

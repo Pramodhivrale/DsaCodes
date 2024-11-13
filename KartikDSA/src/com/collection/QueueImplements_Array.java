@@ -16,7 +16,7 @@ public class QueueImplements_Array {
 			return rear == -1;
 		}
 
-		// Enqueue
+		// Enqueue == add
 		public static void addData(int data) {
 			if (rear == size - 1) {
 				System.out.println("Queue is full");
@@ -26,7 +26,7 @@ public class QueueImplements_Array {
 			arr[rear] = data;
 		}
 
-		// Dequeue / remove
+		// Dequeue == remove
 		public static int remove() {
 			if (isEmpty()) {
 				System.out.println("Queue is empty");

@@ -14,18 +14,21 @@ public class ArmStrongNumber {
 
 		while (num != 0) {
 			int rem = num % 10;
-			System.out.println(rem);
+			//System.out.println(rem);
 
 			cube = (int) Math.pow(rem, 3);
 			sum = sum + cube;
 
 			num = num / 10;
-			System.out.println(num);
+			//System.out.println(num);
 
 		}
 
 		if (sum == temp) {
 			System.out.println("AramStrong number");
+		}
+		else {
+			System.out.println("Not");
 		}
 	}
 

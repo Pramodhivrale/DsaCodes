@@ -6,7 +6,7 @@ public class QueueImlements_CircularArray {
 		static int arr[];
 		static int size;
 		static int rear = -1;
-		static int front=-1;
+		static int front = -1;
 
 		public Queue(int size) {
 			arr = new int[size];
@@ -14,11 +14,11 @@ public class QueueImlements_CircularArray {
 		}
 
 		public static boolean isEmpty() {
-			return rear == -1 && front ==1;
+			return rear == -1 && front == -1;
 		}
-		
+
 		public static boolean isFull() {
-			return (rear+1)%size==front;
+			return (rear + 1) % size == front;
 		}
 
 		// Enqueue
@@ -27,10 +27,10 @@ public class QueueImlements_CircularArray {
 				System.out.println("Queue is full");
 				return;
 			}
-			if(front==-1) {
-				front=0;
+			if (front == -1) {
+				front = 0;
 			}
-			rear=(rear+1)%size;
+			rear = (rear + 1) % size;
 			arr[rear] = data;
 		}
 
@@ -41,11 +41,11 @@ public class QueueImlements_CircularArray {
 				return -1;
 			}
 			int result = arr[front];
-			//Single element condition
-			if(rear==front) {
-				rear=front=-1;
-			}else {
-				front=(front+1)%size;
+			// Single element condition
+			if (rear == front) {
+				rear = front = -1;
+			} else {
+				front = (front + 1) % size;
 			}
 			return result;
 		}
