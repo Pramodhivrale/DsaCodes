@@ -3,8 +3,6 @@ package com.collection;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.collection.BuildBinaryTreeYT.Node;
-
 public class BuildBinaryTreeYT {
 	static class Node {
 		int data;
