@@ -1,6 +1,6 @@
 package com.dsa;
 
-public class Arm {
+public class Arm_Day5 {
 	public static void main(String[] args) {
 		int num = 370;
 		int cubeaddition = 0;

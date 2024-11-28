@@ -1,5 +1,6 @@
 package com.search;
 
+// Unsorted array
 public class LinearSearch 
 {
 	public static void meth1(int ar[],int s,int n) 

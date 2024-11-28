@@ -2,10 +2,10 @@ package com.java8;
 
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.DoubleSummaryStatistics;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
-import java.util.function.ToDoubleFunction;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -230,16 +230,32 @@ public class StreamApiFinalPractice {
 		 * 
 		 */
 		
-          List<Employee> collect = empData.stream().sorted(Comparator.comparing(Employee::getSalary).reversed())
-          .collect(Collectors.toList());
-          Employee employee = collect.get(0);
-         // System.out.println(employee);
-		
-       Stream<Employee> filter = empData.stream().filter(e->e.depertmanet=="Sales" && e.salary>15000.0);
-       //filter.forEach(data->System.out.println(data));
+//          List<Employee> collect = empData.stream().sorted(Comparator.comparing(Employee::getSalary).reversed())
+//          .collect(Collectors.toList());
+//          Employee employee = collect.get(0);
+//         // System.out.println(employee);
+//		
+//       Stream<Employee> filter = empData.stream().filter(e->e.depertmanet=="Sales" && e.salary>15000.0);
+//       //filter.forEach(data->System.out.println(data));
+//       
+//       Optional<Employee> collect2 = empData.stream().collect(Collectors.maxBy(Comparator.comparing(e->e.getSalary())));
+//       System.out.println(collect2.get());
        
-       Optional<Employee> collect2 = empData.stream().collect(Collectors.maxBy(Comparator.comparing(e->e.getSalary())));
-       System.out.println(collect2.get());
+       // Q. Maximum salery in Infrastrcutere depertment
+//       Optional<Employee> collect = empData.stream().filter(data->data.getDepertmanet().equals("Infrastrcutere"))
+//              .collect(Collectors.maxBy(Comparator.comparing(Employee::getSalary)));
+//       System.out.println(collect);
+       
+	// Q.Query for Finding First 5 Max Salary of Emp w.r.t Department using Java 8
+//       Stream<Employee> limit = empData.stream().sorted(Comparator.comparing(Employee::getSalary).reversed())
+//              .limit(5);
+//       limit.forEach(data->System.out.println(data+" "));
+		
+		Map<Character,List<Employee>> collect = empData.stream().collect(Collectors.groupingBy(data->data.getName().charAt(0)));
+		System.out.print(collect);
+       
+       
+       
 
 
 	}

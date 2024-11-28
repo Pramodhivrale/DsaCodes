@@ -21,7 +21,6 @@ class Mobile implements Product {
 
 	@Override
 	public void info() {
-		// TODO Auto-generated method stub
 		System.out.println("Mobile Phone");
 
 	}

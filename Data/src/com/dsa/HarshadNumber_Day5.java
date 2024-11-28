@@ -2,7 +2,7 @@ package com.dsa;
 
 import java.util.Scanner;
 
-public class HarshadNumber 
+public class HarshadNumber_Day5
 {
 	public static void main(String[] args) 
 	{

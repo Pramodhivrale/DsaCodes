@@ -1,16 +1,16 @@
 package com.trees;
 
-class TreeNode {
-	int val;
-	TreeNode left;
-	TreeNode right;
-
-	TreeNode(int val) {
-		this.val = val;
-	}
-}
-
 public class MaxPathSumTree {
+
+	static class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+
+		TreeNode(int val) {
+			this.val = val;
+		}
+	}
 
 	int maxsum = Integer.MIN_VALUE;
 

@@ -19,7 +19,6 @@ public class SortingUsingLambda {
 		
 		//Collections.sort(al, (i,j)->i.compareTo(j));
 		// This will sort in ascending order
-		
 		Collections.sort(al,(i , j) -> (i > j) ? -1: 1);
 		// This will sort in descending order
 		System.out.println(al);
