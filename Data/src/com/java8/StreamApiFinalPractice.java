@@ -4,8 +4,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -118,7 +116,6 @@ public class StreamApiFinalPractice {
 
 		List<Employee> empData = Arrays.asList(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16);
 
-				
 //		Stream<Employee> filter = empData.stream().filter(i -> i.salary == 25000.0);
 //		List<Employee> collect = filter.collect(Collectors.toList());
 //		System.out.println(collect);
@@ -229,7 +226,7 @@ public class StreamApiFinalPractice {
 		 * reversed()).skip(1).findFirst(); System.out.println(first.get().name);
 		 * 
 		 */
-		
+
 //          List<Employee> collect = empData.stream().sorted(Comparator.comparing(Employee::getSalary).reversed())
 //          .collect(Collectors.toList());
 //          Employee employee = collect.get(0);
@@ -240,23 +237,40 @@ public class StreamApiFinalPractice {
 //       
 //       Optional<Employee> collect2 = empData.stream().collect(Collectors.maxBy(Comparator.comparing(e->e.getSalary())));
 //       System.out.println(collect2.get());
-       
-       // Q. Maximum salery in Infrastrcutere depertment
+
+		// Q. Maximum salery in Infrastrcutere depertment
 //       Optional<Employee> collect = empData.stream().filter(data->data.getDepertmanet().equals("Infrastrcutere"))
 //              .collect(Collectors.maxBy(Comparator.comparing(Employee::getSalary)));
 //       System.out.println(collect);
-       
-	// Q.Query for Finding First 5 Max Salary of Emp w.r.t Department using Java 8
+
+		// Q.Query for Finding First 5 Max Salary of Emp w.r.t Department using Java 8
 //       Stream<Employee> limit = empData.stream().sorted(Comparator.comparing(Employee::getSalary).reversed())
 //              .limit(5);
 //       limit.forEach(data->System.out.println(data+" "));
-		
-		Map<Character,List<Employee>> collect = empData.stream().collect(Collectors.groupingBy(data->data.getName().charAt(0)));
-		System.out.print(collect);
-       
-       
-       
 
+//		Map<Character, List<Employee>> collect = empData.stream()
+//				.collect(Collectors.groupingBy(data -> data.getName().charAt(0)));
+//		System.out.print(collect);
+
+		// First-way
+//		Stream<Employee> sorted = empData.stream().sorted(new Comparator<Employee>() {
+//
+//			@Override
+//			public int compare(Employee o1, Employee o2) {
+//				return Double.compare(o2.getSalary(), o1.getSalary());
+//			}
+//
+//		});
+//		
+//		sorted.forEach(name->System.out.println(name));
+
+		// Second-way
+//		Stream<Employee> sorted = empData.stream().sorted((o1,o2)->Double.compare(o2.getSalary(), o1.getSalary()));
+//		sorted.forEach(name->System.out.println(name));
+
+		// Third-way
+		Stream<Employee> sorted = empData.stream().sorted(Comparator.comparing(Employee::getSalary).reversed());
+		sorted.forEach(name -> System.out.println(name));
 
 	}
 

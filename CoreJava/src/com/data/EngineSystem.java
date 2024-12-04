@@ -13,7 +13,7 @@ class PetrolEngine implements Engine {
 
 }
 
-class ElectricEngine implements Engine {
+class ElectricEngin implements Engine {
 
 	@Override
 	public void engine() {
@@ -29,7 +29,7 @@ class Car {
 			return e1;
 		}
 		if (mode.equalsIgnoreCase("Electric")) {
-			Engine e2 = new ElectricEngine();
+			Engine e2 = new ElectricEngin();
 			return e2;
 		}
 		return null;

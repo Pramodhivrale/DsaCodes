@@ -5,6 +5,11 @@ public class InfiniteLoop
 	public static void main(String[] args) {
 		// IF WE DON'T GIVE INCREMENT CONDITION THEN LOOP WILL RUN FOR INFINITE
 		//IF WE DON'T GIVE CONDITION THEN LOOP WILL RUN FOR INFINITE
+		
+//		for(int i=0;;i++) {
+//			System.out.println("w");
+//		}
+		
 		// IF WE DON'T GIVE ANY CONDITION THEN ALSO LOOP WILL RUN FOR INFINITE
 //		for(;;) {
 //			System.out.println("#");

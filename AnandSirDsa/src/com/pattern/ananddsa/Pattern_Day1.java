@@ -1,5 +1,9 @@
 package com.pattern.ananddsa;
 
+//****
+//****
+//****
+//****
 public class Pattern_Day1 
 {
 	public static void main(String[] args) {
