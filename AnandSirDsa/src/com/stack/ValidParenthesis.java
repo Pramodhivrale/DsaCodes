@@ -22,9 +22,10 @@ public class ValidParenthesis {
 				}
 
 				char top = stack.pop();
-				if ((c == ')' && top != '(') || (c == '}' && top != '{') || (c == ']' && top != '[')) {
-					return false;
+				if ((c == '}' && top != '{') || (c == ']' && top != '[') || (c == ')' && top != '(')) {
+				    return false;
 				}
+
 			}
 		}
 		return stack.isEmpty();

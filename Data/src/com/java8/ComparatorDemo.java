@@ -64,7 +64,7 @@ public class ComparatorDemo {
 		System.out.println("Sorting tha data based on Object");
 		ArrayList<Object> al = new ArrayList<Object>();
 
-		al.add(new ObjectsForSorting(4, "Pramod", "softwear engg"));
+		al.add(new ObjectsForSorting(4, "Aramod", "softwear engg"));
 		al.add(new ObjectsForSorting(3, "Rutika", "Data engg"));
 		al.add(new ObjectsForSorting(2, "Mahesh", "Business man"));
 		al.add(new ObjectsForSorting(1, "Radha", "Doctoer"));

@@ -9,7 +9,7 @@ public class RunnableThread implements Runnable
 	{
         for (int i = 0; i <=5; i++) 
         {
-        	System.out.println("Run method is executed !"+i);
+        	System.out.println("Run method is executed :"+i);
 			
 		}		
 	}

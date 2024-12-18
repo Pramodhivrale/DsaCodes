@@ -1,5 +1,6 @@
 package com.sorting;
 
+// Selection Sort
 public class SelectionSort1 {
 	public static void main(String[] args) {
 		int arr[] = { 8, 5, 2, 9, 6, 3, -1 };

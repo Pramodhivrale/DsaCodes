@@ -1164,3 +1164,41 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2024-12-03 13:29:35,009 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2024-12-03 13:29:35,016 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-12-03 13:29:35,016 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\07. JPANamedQueryApp\NamedQueryApplication\src\test\resources
+2024-12-04 09:04:13,217 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-05 09:40:26,545 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-06 09:30:16,082 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-07 09:46:55,962 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-07 09:47:07,548 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2024-12-12 14:28:06,405 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-12 14:28:18,013 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2024-12-14 08:40:03,790 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-17 10:34:05,061 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-17 17:36:31,157 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-17 17:52:16,750 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:16,759 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-12-17 17:52:16,780 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:16,780 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\12. Application1\HibernateApplication1\src\test\resources
+2024-12-17 17:52:17,982 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:17,985 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-12-17 17:52:17,996 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:17,996 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\03. Many-to-Many\JPAManyToMany\src\test\resources
+2024-12-17 17:52:18,424 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:18,425 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-12-17 17:52:18,431 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:18,431 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\05. OneToMany\JPAOneToMany\src\test\resources
+2024-12-17 17:52:23,585 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:23,586 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-12-17 17:52:23,592 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:23,593 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\09. JPQLApplication\JPQLApplication\src\test\resources
+2024-12-17 17:52:24,458 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:24,459 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-12-17 17:52:24,466 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:24,467 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\10. JPA app1\JpaHibernateAppln1\src\test\resources
+2024-12-17 17:52:25,987 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:25,988 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-12-17 17:52:25,998 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:25,998 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\01. Level2 cache example\Level2Cache\src\test\resources
+2024-12-17 17:52:26,330 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:26,330 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-12-17 17:52:26,337 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-17 17:52:26,337 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\07. JPANamedQueryApp\NamedQueryApplication\src\test\resources
