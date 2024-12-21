@@ -1,5 +1,5 @@
 package com.dsa1;
-//COLUMN SUM
+//Row SUM
 public class SumOfRowMatrix {
 	public static void main(String[] args) {
 		int[][] matrix = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };

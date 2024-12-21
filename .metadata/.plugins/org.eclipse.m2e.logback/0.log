@@ -1202,3 +1202,6 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2024-12-17 17:52:26,330 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2024-12-17 17:52:26,337 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-12-17 17:52:26,337 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Notes\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\Hibernate with JPA Daily Class Notes 20th Feb 2023 Batch\07. JPANamedQueryApp\NamedQueryApplication\src\test\resources
+2024-12-18 09:14:10,560 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-19 20:21:17,021 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-20 09:54:40,605 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

@@ -11,7 +11,7 @@ public class CollectionsFrequencyAndCopies
 		List<String> nCopies = Collections.nCopies(10,"java" );
 		nCopies.forEach(System.out::println);
 		
-		int frequency = Collections.frequency(nCopies, "Pramod");
+		int frequency = Collections.frequency(nCopies, "java");
 		System.out.println(frequency);
 		
 	}
