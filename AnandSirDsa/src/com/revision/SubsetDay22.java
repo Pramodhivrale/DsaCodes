@@ -13,7 +13,7 @@ public class SubsetDay22 {
 					subset = subset + arr[j];
 				}
 			}
-			System.out.println(subset);
+			System.out.println(subset+" ");
 		}
 	}
 

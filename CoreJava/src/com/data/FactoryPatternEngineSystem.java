@@ -36,7 +36,7 @@ class Car {
 	}
 }
 
-public class EngineSystem {
+public class FactoryPatternEngineSystem {
 	public static void main(String[] args) {
 		Car c = new Car();
 		Engine carEngine = c.carEngine("Petrol");

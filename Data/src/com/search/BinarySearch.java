@@ -18,9 +18,7 @@ public class BinarySearch
 				 low=mid+1;
 				
 			}
-			 else {
-				System.out.println("False");
-			}
+			
 		}
 		System.out.println("After While Loop :"+low+" "+heigh);
 		System.out.println("False");

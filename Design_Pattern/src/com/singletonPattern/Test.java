@@ -1,9 +1,5 @@
 package com.singletonPattern;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 import java.lang.reflect.Constructor;
 
 public class Test 
@@ -13,9 +9,9 @@ public class Test
 		SingletonDesignPattern instance2 = SingletonDesignPattern.getInstance();
 		SingletonDesignPattern instance3 = SingletonDesignPattern.getInstance();
 		
-		System.err.println(instance3.hashCode());
+		System.out.println(instance3.hashCode());
 		System.out.println(instance2.hashCode());
-		System.err.println(instance.hashCode());
+		System.out.println(instance.hashCode());
 		
 //		ObjectOutputStream oos=new ObjectOutputStream(new FileOutputStream("C:\\FileInputStrem\\pramod.ser"));
 //		oos.writeObject(instance);

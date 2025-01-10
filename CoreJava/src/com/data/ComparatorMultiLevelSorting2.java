@@ -39,5 +39,9 @@ public class ComparatorMultiLevelSorting2 {
 	                .thenComparing(ComparatorMultiLevelSorting2::getName);
 	        
 	        Collections.sort(employeess,ageThenNameComparator);
+	        
+	        for (ComparatorMultiLevelSorting2 employee : employeess) {
+	            System.out.println(employee);
+	        }
 	    }
 }

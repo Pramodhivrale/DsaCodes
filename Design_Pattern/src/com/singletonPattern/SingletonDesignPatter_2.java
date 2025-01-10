@@ -8,9 +8,10 @@ public class SingletonDesignPatter_2 implements Serializable,Cloneable
 	static SingletonDesignPatter_2 s=null;
 	
 	private SingletonDesignPatter_2() throws Exception {
-//		if(s != null) {
-//			throw new Exception();
-//		}
+		// using this logic we can prevent singleton pattern from breaking using refection
+		if(s != null) {
+			throw new Exception();
+		}
 	}
 	
 	static SingletonDesignPatter_2 getInstance() throws Exception {

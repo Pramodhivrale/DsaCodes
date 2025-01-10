@@ -15,6 +15,15 @@ public class OccurenceOfCharacter {
 		
 		Set<Entry<Character,Integer>> entrySet = result.entrySet();
 		System.out.println(entrySet);
+	
+		result.forEach((key,value)->{
+			
+			System.out.println(key+" "+value);
+		});
+		
+		 result.forEach((key, value) -> {
+	            System.out.println("Key: " + key + ", Value: " + value);
+	        });
 	}
 
 }

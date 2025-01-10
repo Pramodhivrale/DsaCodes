@@ -3,6 +3,7 @@ package com.java8;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Predicate;
 
 class Person {
 	int age;
@@ -29,12 +30,8 @@ public class PredicatePersonDemo {
 		long count = asList.stream().filter(person -> person.age >= 18).count();
 		System.out.println(count);
 
-		
-		
-		
 		/*
-		 * Using predicate
-		 * Predicate<Person> person= data -> data.age >= 18;
+		 * Using predicate Predicate<Person> person= data -> data.age >= 18;
 		 * 
 		 * for(Person data : asList) { if(person.test(data)) {
 		 * System.out.println(data.name); }

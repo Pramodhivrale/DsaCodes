@@ -1,5 +1,7 @@
 package com.singletonPattern;
 
+import java.lang.reflect.Constructor;
+
 public class Test_2 
 {
 	public static void main(String[] args) throws Exception {
@@ -20,14 +22,14 @@ public class Test_2
 //		ObjectInputStream obj=new ObjectInputStream(new FileInputStream("C:\\\\FileInputStrem\\\\pramod2.ser"));
 //		SingletonDesignPatter_2 s5 =(SingletonDesignPatter_2) obj.readObject();
 //		System.out.println(s5.hashCode());
-//		
+		
 //		Constructor<SingletonDesignPatter_2> declaredConstructor = SingletonDesignPatter_2.class.getDeclaredConstructor();
 //		declaredConstructor.setAccessible(true);
 //		SingletonDesignPatter_2 newInstance =(SingletonDesignPatter_2) declaredConstructor.newInstance();
 //		System.out.println(newInstance.hashCode());
 		
-		SingletonDesignPatter_2 clone =(SingletonDesignPatter_2) s1.clone();
-		System.out.println(clone.hashCode()); // broke singleton using clone
+//		SingletonDesignPatter_2 clone =(SingletonDesignPatter_2) s1.clone();
+//		System.out.println(clone.hashCode()); // broke singleton using clone
 		
 		
 	}
