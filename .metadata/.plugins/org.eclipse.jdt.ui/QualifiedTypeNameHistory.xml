@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="com.data.ComparatorMultiLevelSorting"/>
-    <fullyQualifiedTypeName name="com.data.ComparatorMultiLevelSorting1"/>
-    <fullyQualifiedTypeName name="com.loopsInterview.MArkerInt"/>
-    <fullyQualifiedTypeName name="com.loopsInterview.MarkerInterface"/>
-    <fullyQualifiedTypeName name="com.loopsInterview.Mark"/>
-    <fullyQualifiedTypeName name="com.practice.VarArgs"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
@@ -15,7 +8,6 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.collection.Pramod"/>
     <fullyQualifiedTypeName name="com.collection.Practice"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="com.revision.LinkedListDay44"/>
     <fullyQualifiedTypeName name="com.revision.LinkedListDay44.Node"/>
@@ -27,22 +19,17 @@
     <fullyQualifiedTypeName name="com.revision.BuildBTDay48"/>
     <fullyQualifiedTypeName name="com.revision.BuildBTDay48.BinaryTree"/>
     <fullyQualifiedTypeName name="com.revision.BuildBTDay48.TreeNode"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="com.revision.TreeNode"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="com.revision.LevelOrderTraversal"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="com.data.Test"/>
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
     <fullyQualifiedTypeName name="com.java8.Person"/>
     <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.stream.Collector"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
@@ -54,10 +41,23 @@
     <fullyQualifiedTypeName name="com.factoryPaattern.EngineFactory"/>
     <fullyQualifiedTypeName name="com.data.FactoryOfEngine"/>
     <fullyQualifiedTypeName name="com.data.Cars"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="com.data.Names"/>
+    <fullyQualifiedTypeName name="com.data.OddEvenPrinter"/>
+    <fullyQualifiedTypeName name="java.text.BreakIterator"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="javax.annotation.processing.SupportedSourceVersion"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.revision.InvetBinaryTreeDay50"/>
+    <fullyQualifiedTypeName name="com.revision.InvertBinaryTreeDay50.TreeNode"/>
+    <fullyQualifiedTypeName name="com.revision.TreeNode"/>
+    <fullyQualifiedTypeName name="com.revision.CreateBstDay50.TreeNode"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

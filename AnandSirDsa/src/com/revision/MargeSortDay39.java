@@ -11,7 +11,7 @@ public class MargeSortDay39 {
 		System.out.println(Arrays.toString(array));
 	}
 
-	private static void divide(int[] array, int low, int high) {
+	public static void divide(int[] array, int low, int high) {
 		if(low >= high) {
 			return;
 		}
@@ -20,8 +20,7 @@ public class MargeSortDay39 {
 		divide(array, mid + 1, high);
 		marge(array, low, high, mid);
 	}
-
-	private static void marge(int[] array, int low, int high, int mid) {
+	public static void marge(int[] array, int low, int high, int mid) {
 		int start = low;
 		int midindex = mid + 1;
 		int x = 0;
@@ -45,12 +44,11 @@ public class MargeSortDay39 {
 			x++;
 			midindex++;
 		}
+		System.out.println(Arrays.toString(marged));
 		
 		for(int i=0;i<marged.length;i++) {
 			array[low+i]=marged[i];
-		}
-		
-		
+		}	
 	}
 
 }

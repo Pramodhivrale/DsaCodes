@@ -12,7 +12,7 @@ public class SecondLargestElement {
 			if (num > largest) {
 				secondLargest = largest;
 				largest = num;
-			} else if (num < largest &&  num > secondLargest) {
+			} else if (num > secondLargest && num != largest) {
 				secondLargest = num;
 			}
 		}

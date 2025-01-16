@@ -2,7 +2,7 @@ package com.revision;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// Brute-force approche
 public class Day_19_Duplicate {
 	public static void main(String[] args) {
 		int arr[] = { 2, 3, 4, 4, 5, 1, 2, 2, 4 };

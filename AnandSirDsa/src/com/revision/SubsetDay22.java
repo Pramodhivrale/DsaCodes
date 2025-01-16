@@ -10,7 +10,7 @@ public class SubsetDay22 {
 			for (int j = 0; j < arr.length; j++) {
 				if ((i & (1 << j)) > 0) {
 
-					subset = subset + arr[j];
+					subset = subset + arr[j]+" ";
 				}
 			}
 			System.out.println(subset+" ");

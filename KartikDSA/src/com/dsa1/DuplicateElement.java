@@ -36,7 +36,7 @@ class Duplicate {
 				}
 			}
 			if (key != -1 && count > 0) {
-               System.out.println(arr[key]);
+				System.out.println(arr[key]);
 			}
 		}
 	}
