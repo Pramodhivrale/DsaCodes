@@ -2,8 +2,6 @@ package com.collection;
 
 import java.util.ArrayList;
 
-import com.collection.Graph_DijkstrasAlgorithamYT.Edge;
-
 public class BellmanFord {
 	static class Edge {
 		int src;

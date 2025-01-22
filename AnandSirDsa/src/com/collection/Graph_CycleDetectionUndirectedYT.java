@@ -2,8 +2,6 @@ package com.collection;
 
 import java.util.ArrayList;
 
-import com.collection.Graph_CycleDetection_YT.Edge;
-
 //CYCLE DETECTION IN UNDIRECTED GRAPH
 public class Graph_CycleDetectionUndirectedYT {
 	static class Edge {
@@ -40,7 +38,7 @@ public class Graph_CycleDetectionUndirectedYT {
 		graph[5].add(new Edge(5, 4));
 
 	}
-
+    // Day 62 - Anand sir
 	public static boolean isCycleUndirected(ArrayList<Edge> graph[], boolean visted[], int curr, int parent) {
 		visted[curr] = true;
 		for (int i = 0; i < graph[curr].size(); i++) {

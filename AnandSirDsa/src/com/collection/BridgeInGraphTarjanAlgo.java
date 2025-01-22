@@ -2,8 +2,6 @@ package com.collection;
 
 import java.util.ArrayList;
 
-import com.collection.KosarajusAlgoritham.Edge;
-
 public class BridgeInGraphTarjanAlgo {
 	static class Edge {
 		int src;
