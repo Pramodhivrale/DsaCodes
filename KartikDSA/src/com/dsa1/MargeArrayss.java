@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class MargeArrayss 
 {
 	public static void main(String[] args) {
-		int a[]= {8,5,6,9,30};
-		int b[]= {7,4,5,8,2,8};
+		int a[] = { 8, 5, 6, 9, 30 };
+		int b[] = { 7, 4, 5, 8, 2, 8 };
 		
 		Arrays.sort(a);
 		Arrays.sort(b);

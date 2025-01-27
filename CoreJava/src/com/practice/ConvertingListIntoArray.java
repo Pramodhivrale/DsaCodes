@@ -14,7 +14,7 @@ public class ConvertingListIntoArray
 
 	        // Convert List to Object[] array
 	        Object[] array = list.toArray();
-	        
+        	        
 	        List<String> nCopies = Collections.nCopies(5, "Java");
 	        System.out.println(nCopies);
 	}
